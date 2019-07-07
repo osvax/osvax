@@ -1,1 +1,2 @@
-# osvax.github.io
+# gdecider.github.io
+Правила создания и ведения проекта

@@ -1,0 +1,166 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Статьи  
+  folders:
+  
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+      
+  - title: Рабочее окружение
+    output: web, pdf
+    folderitems:
+    
+    - title: Список статей
+      url: /articles-g-env.html
+      output: web, pdf
+      
+    - title: PHPStorm
+      url: /articles-env-phpstorm-index.html
+      output: web, pdf
+    
+    - title: Решение проблем
+      url: /articles_env-reshenie-problem.html
+      output: web, pdf
+          
+      subfolders:      
+      - title: Vagrant
+        output: web
+        subfolderitems:
+
+        - title: Vagrant
+          url: /articles_env-vagrant.html
+          output: web, pdf
+          type: homepage
+          
+      - title: Apache
+        output: web
+        subfolderitems:
+        
+        - title: Apache
+          url: /articles_env-apache.html
+          output: web, pdf
+          type: homepage
+        
+      - title: Nginx
+        output: web
+        subfolderitems:
+        
+        - title: Nginx
+          url: /articles_env-nginx.html
+          output: web, pdf
+          type: homepage
+        
+      - title: Php
+        output: web
+        subfolderitems:
+        
+        - title: Php
+          url: /articles_env-php.html
+          output: web, pdf
+          type: homepage
+        
+      - title: MySql
+        output: web
+        subfolderitems:
+        
+        - title: MySql
+          url: /articles_env-mysql.html
+          output: web, pdf
+          type: homepage
+
+  - title: 1С Битрикс
+    output: web, pdf    
+    folderitems:
+
+    - title: Список статей
+      url: /articles-g-cms-bitrix.html
+      output: web, pdf
+  
+  - title: Битрикс24
+    output: web, pdf
+    folderitems:
+
+    - title: Пример разработки модуля
+      url: /articles_bx24-module-example.html
+      output: web, pdf
+      
+  - title: MySql
+    output: web, pdf    
+    folderitems:
+
+    - title: Список статей
+      url: /articles-g-mysql.html
+      output: web, pdf
+  
+  - title: Git
+    output: web, pdf    
+    folderitems:
+
+    - title: Список статей
+      url: /articles-g-git.html
+      output: web, pdf
+      
+  - title: Front-end
+    output: web, pdf
+    folderitems:
+
+    - title: О разделе
+      url: /articles_frontend-about.html
+      output: web, pdf
+          
+    - title: Оптимизация
+      url: /articles_fe-optimization.html
+      output: web, pdf      
+
+      subfolders:      
+      - title: CSS/SASS
+        output: web
+        subfolderitems:
+      
+        - title: Диагональные элементы
+          url: /articles_frontend-css-diagonals.html
+          output: web, pdf
+
+      - title: JS
+        output: web
+        subfolderitems:
+      
+        - title: Диагональные элементы
+          url: /articles_frontend-css-diagonals.html
+          output: web, pdf
+
+      - title: Прочее
+        output: web
+        subfolderitems:
+      
+        - title: Диагональные элементы
+          url: /articles_frontend-css-diagonals.html
+          output: web, pdf
+          
+      - title: Адаптивная верстка
+        output: web
+        subfolderitems:
+      
+        - title: Статьи и советы
+          url: /articles_frontend-adaptiv-articles.html
+          output: web, pdf
+      
+  - title: Прочее
+    output: web, pdf
+    folderitems:
+
+    - title: Список статей
+      url: /articles_other-articles-list.html
+      output: web, pdf
